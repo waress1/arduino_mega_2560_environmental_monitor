@@ -8,8 +8,9 @@ before_install:
 install:
   - ln -s $PWD /usr/local/share/arduino/libraries/arduino_mega_2560_environmental_monitor
 before_script:
-  - "export DISPLAY=:99.0"
-  - "sh -e /etc/init.d/xvfb start"
+  - export DISPLAY=:99.0
+  - export LD_LIBRARY_PATH=/usr/lib/x86_64-linux-gnu/ 
+  - sh -e /etc/init.d/xvfb start
   - sleep 3 # give xvfb some time to start
 script:
   - arduino --verify --board arduino:avr:uno $PWD/text.ino
