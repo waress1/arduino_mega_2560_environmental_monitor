@@ -5,5 +5,8 @@ void setup() {
 
 void loop() {
   // put your main code here. to run repeatedly:
- exit 0;
+ while (!Serial);
+
+  Serial.begin(115200);
+  Serial.println(F("basic test"));
 }
