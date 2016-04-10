@@ -13,7 +13,7 @@ install:
   - ln -s $PWD /usr/local/share/arduino/libraries/MicroDebug
   
 script:
-  - arduino --verify --board ${BOARD} $PWD/text.ino
+  - arduino --verify --board ${BOARD} $PWD/text1.ino
   
 notifications:
   email:
