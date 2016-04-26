@@ -11,4 +11,13 @@ Esp-01 + Esp8266 + Arduino Mega 2560 + 9 sensors + 1-3 rainfall sensors
   - UV intensity 
   - IR flame detector 760-1100nm
 
-Wind speed measurement height standard is 33 ft... there is a formula to adjust with.  Our Roof peak around 26 ft.  7ft difference.
+Wind speed measurement height standard is 33 ft... there is a formula to adjust with.  Our Roof peak around 26 ft.  7ft difference
+
+10 metres per second = 22.37 miles per hour
+
+
+.835777289504536 meters per sec different
+
+2.237 mph per 1.0 meters per sec
+
+Add about 1.8694609 mph.
