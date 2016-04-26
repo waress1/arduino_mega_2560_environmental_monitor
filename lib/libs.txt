@@ -1,2 +1,5 @@
-WeeESP8266 for the ESP8266 is good. https://github.com/itead/ITEADLIB_Arduino_WeeESP8266
-
+WIFI: WeeESP8266 for the ESP8266 is good. https://github.com/itead/ITEADLIB_Arduino_WeeESP8266
+Air temperature: DHT22 https://github.com/adafruit/DHT-sensor-library
+Lightning detector: AS3935 playing with fusion lib? See examples?
+Subsurface temp: DS18B20 http://www.milesburton.com/?title=Dallas_Temperature_Control_Library
+Surface temperature: http://github.com/Seeed-Studio/Digital_Infrared_Temperature_Sensor_MLX90615
