@@ -10,3 +10,5 @@ Esp-01 + Esp8266 + Arduino Mega 2560 + 9 sensors + 1-3 rainfall sensors
   - Intensity
   - UV intensity 
   - IR flame detector 760-1100nm
+
+Wind speed measurement height standard is 33 ft... there is a formula to adjust with.  Our Roof peak around 26 ft.  7ft difference.
