@@ -66,6 +66,8 @@ Sound intensity level [2]
 Wind direction [2]
 Wind speed [2]
 
+
+
 Ground: [1]
 Surface soil temperature
 Sub-Surface soil temperature
@@ -78,3 +80,34 @@ Light: [2]
 Intensity
 UV intensity 
 IR flame detector 760-1100nm
+
+
+Android App:
+Overview
+Alerts ( UV intensity, Rads, Lightning, CO/smog/Air quality, raining, Wind speed, Wind chill/low temps, fire, earthquake/shake, bright, need to water, dust/Smoke levels )
+Weather
+Air, loud, 
+Ground
+EMP
+
+Sensor.threshold.uniqueid.rule
+Sensor.threshold.uniqueid.message
+
+Uniqid, rule, message, alert?
+
+1
+2
+3
+4
+struct sensor {
+  int weight;
+  double price;
+} apple, banana, melon;
+
+
+Sensors have alerts.
+Alerts have conditions, a threshold, a message, a alert method.
+
+After reading a sensor check for alerts.  How to best do in c++
+
+
